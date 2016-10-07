@@ -79,6 +79,11 @@
 	<include resource="realdriveby" />
 	
 	<export function="getPlayerColour" type="server"/>
+	 
+	 <settings>
+		<setting name="*timeBetweenMsg" value="1" group="Anti-flood" />
+		<setting name="*maxWarnings" value="3" group="Anti-flood" />
+	</settings>
 	
 	<!-- Gameplay (download) -->
 	<!--<include resource="heligrab" />-->
